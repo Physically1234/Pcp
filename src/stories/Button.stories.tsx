@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Button from '../components/Button';
+import Button from '../components/Sign_in';
 import {AiOutlineLogin} from "react-icons/ai"
 
 const meta: Meta<typeof Button> = {
@@ -13,12 +13,11 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 //exporting primary varient of button
-export const Primary: Story = {
+export const SignIn: Story = {
   args:{
     intent:"primary",
     fullwidth:true,
-    children:"Primary Label",
-    LeftIcon:<AiOutlineLogin/>
+    children:"Sign in",
   },
   argTypes:{
     fullwidth:{
@@ -28,12 +27,11 @@ export const Primary: Story = {
   }
 }
 
-export const Disabled: Story = {
+export const SignUp: Story = {
   args:{
-    intent:"disabled",
+    intent:"primary",
     fullwidth:true,
-    children:"Disabled Label",
-    LeftIcon:<AiOutlineLogin/>
+    children:"Sign up",
   },
   argTypes:{
     fullwidth:{
@@ -41,4 +39,4 @@ export const Disabled: Story = {
       defaultValue:false
     }
   }
-} 
+}
