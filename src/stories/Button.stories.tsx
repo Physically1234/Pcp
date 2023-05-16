@@ -40,3 +40,17 @@ export const SignUp: Story = {
     }
   }
 }
+
+export const ChangePassword: Story = {
+  args:{
+    intent:"primary",
+    fullwidth:true,
+    children:"Change Password",
+  },
+  argTypes:{
+    fullwidth:{
+      type:"boolean",
+      defaultValue:false
+    }
+  }
+}
