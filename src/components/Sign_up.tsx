@@ -23,7 +23,7 @@ interface ButtonExtendedProps extends ButtonProps {
   height?: string;
 }
 
-export default function Button({
+export default function Sign_up({
   intent,
   fullwidth,
   children,
@@ -33,7 +33,7 @@ export default function Button({
   ...props
 }: ButtonExtendedProps) {
   const buttonStyle = {
-    width : "170px" , height : "24px"
+    width : "200px" , height : "114px"
   };
 
   return (

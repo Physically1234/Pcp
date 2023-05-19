@@ -23,7 +23,7 @@ interface ButtonExtendedProps extends ButtonProps {
   height?: string;
 }
 
-export default function Changepw({
+export default function Button({
   intent,
   fullwidth,
   children,
@@ -33,7 +33,7 @@ export default function Changepw({
   ...props
 }: ButtonExtendedProps) {
   const buttonStyle = {
-    width : "338px" , height : "33px"
+    width : "170px" , height : "24px"
   };
 
   return (

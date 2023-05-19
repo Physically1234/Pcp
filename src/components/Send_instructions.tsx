@@ -23,7 +23,7 @@ interface ButtonExtendedProps extends ButtonProps {
   height?: string;
 }
 
-export default function Button({
+export default function Sendinstructions({
   intent,
   fullwidth,
   children,
@@ -33,7 +33,7 @@ export default function Button({
   ...props
 }: ButtonExtendedProps) {
   const buttonStyle = {
-    width : "170px" , height : "24px"
+    width : "308px" , height : "28px"
   };
 
   return (
