@@ -1,10 +1,10 @@
-import Button from "@/components/Sign_in";
+import Button from "@/components/Button";
 
 
 export default function Page() {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Hello, Next.js!</h1>
+      <h1 className="text-3xl font-bold"></h1>
       <Button
         intent={"primary"}
       >
